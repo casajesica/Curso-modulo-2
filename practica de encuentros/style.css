@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.texto_mediano_verde {
+    font-size: large;
+    color:green;
+    font-weight: bold;
+}
+.texto_chico_negro {
+    font-size: large;
+    color: black;
+    font-weight: normal;
+}
+
+input[type="text"] {
+    border-color: transparent;
+    background-color: lightgrey;
+}
+input[type="checkbox"]:checked {
+    background: brown;
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgreen;
+}
+form {
+    margin: 15px;
+    
+}
+.contenedor {
+   border-color: black;
+   border-style: solid;
+   border-width: 2px;
+   width: 500px;
+}
